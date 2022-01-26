@@ -3,7 +3,7 @@ import unittest
 from leapyear import LeapYear
 
 test_cases = [
-    (False, 1999)
+    (False, 1999),
     (True, 2000)
 ]
 
