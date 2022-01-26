@@ -3,9 +3,7 @@ import unittest
 from leapyear import LeapYear
 
 test_cases = [
-    (True, 2000),
-    (False, 2021),
-    (False, 2022),
+    (False, 1999)
 ]
 
 def make_leap_year(year):
