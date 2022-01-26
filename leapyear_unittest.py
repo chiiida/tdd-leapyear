@@ -5,7 +5,8 @@ from leapyear import LeapYear
 test_cases = [
     (False, 1999),
     (True, 2000),
-    (True, 2004)
+    (True, 2004),
+    (True, 2008),
 ]
 
 def make_leap_year(year):
