@@ -7,6 +7,7 @@ test_cases = [
     (True, 2000),
     (True, 2004),
     (True, 2008),
+    (False, 1009),
 ]
 
 def make_leap_year(year):
