@@ -5,10 +5,6 @@ class LeapYear:
         self.year = year
 
     def is_leap_year(self) -> bool:
-        if self.year == 2000:
-            return True
-        if self.year == 2004:
-            return True
-        if self.year == 2008:
+        if self.year % 4 == 0:
             return True
         return False
